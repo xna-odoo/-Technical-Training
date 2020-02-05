@@ -71,12 +71,12 @@
            <field name="act_window_id" ref="action_openacademy_views"/>
         </record>
         
-        <record model="view_openacademy_course_dashboard" id="ir.ui.view">
+<!--         <record model="view_openacademy_course_dashboard" id="ir.ui.view">
             <dashboard>
                 <view type="list" ref="view_openacademy_course_tree"/>
                 <view type="form" ref="view_openacademy_course_form"/>
             </dashboard>
-        </record>
+        </record> -->
         
         <menuitem id="academy_course"
                   parent="academy_root"
